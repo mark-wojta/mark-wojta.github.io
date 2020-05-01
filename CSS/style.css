@@ -1,41 +1,41 @@
 html {background-color: #1B4C39}
 
 /***** header *****/
-header { height: 238px;
+header {height: 238px;
   width: 100%; background: none}
 
 /***** header image *****/
-.riverImage { background-size: cover; width: 100%; height: 117.6%}
+.riverImage {background-size: cover; width: 100%; height: 117.6%}
 
 /***** body NAVBAR header *****/
-.nav { background: #1B4C39 }
+.nav {background: #1B4C39}
 
 /***** body NAVBAR tabs*****/
-.nav .nav-item { color: #1B4C39 ; background: #eee1c6; border-color: #1B4C39 !important; font-weight: bold}
+.nav .nav-item {color: #1B4C39 ; background: #eee1c6; border-color: #1B4C39 !important; font-weight: bold}
 
 /***** body NAVBAR active tab*****/
-.nav .active { color: #eee1c6 !important; background: #1B4C39 !important;  }
+.nav .active {color: #eee1c6 !important; background: #1B4C39 !important}
 
 /***** body NAVBAR undertab pane *****/
-.tab-content .tab-pane { background: #1B4C39 }
+.tab-content .tab-pane {background: #1B4C39}
 
 /***** body paragraph *****/
-body { background: #1B4C39 }
+body {background: #1B4C39}
 
 /***** body image borders *****/
 .img-thumbnail {background-color: #eee1c6 !important; color: #1B4C39 !important; font-weight: bold !important}
 
 /***** body resume image *****/
-.resumeImage { width: 90%; height: 90%;}
+.resumeImage {width: 90%; height: 90%;}
 
 /***** body works images *****/
 .col-md-4 {margin-top:20px}
 
 /***** all containers-fluid *****/
-.container-fluid { background: #1B4C39; padding: 20px}
+.container-fluid {background: #1B4C39; padding: 20px}
 
 /***** all headers *****/
-h1, h2, h3, h4, h5, h6 { color: #eee1c6;
+h1, h2, h3, h4, h5, h6 {color: #eee1c6;
     background: #1B4C39; 
 	font-size: 20px}
 h1 {font-size: 30px !important}
@@ -46,13 +46,11 @@ h4 {font-size: 15px !important; margin-top: 5px !important; text-align:justify !
 .opening-text {text-align: left; margin-top: 20px; margin-left: 40px; text-indent: -22px}
 
 /***** body profile image&text *****/
-.profile-image { width: 200px; height: 200px}
+.profile-image {width: 200px; height: 200px}
 .profile-col {text-align: center; text-justify: center; margin-top: -20px ; margin-bottom: -20px}
 
 /***** all paragraphs *****/
-p { color: #eee1c6;
-    background:#1B4C39;
-    font-size: 15px; }
+p {color: #eee1c6; background:#1B4C39; font-size: 15px}
 
 /***** body buttons *****/
 .resumeButton {padding:5px}
@@ -60,7 +58,7 @@ p { color: #eee1c6;
 .homeButton {padding:5px}
 
 /***** footer content *****/
-footer { background:#1B4C39; text-justify: center; text-align: center; }
+footer {background:#1B4C39; text-justify: center; text-align: center}
 
 /***** footer linkedIn link *****/
-.linkedIn { height: 40px; width: 40px}
+.linkedIn {height: 40px; width: 40px}
