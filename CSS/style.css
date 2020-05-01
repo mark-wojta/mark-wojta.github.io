@@ -5,13 +5,13 @@ header { height: 238px;
   width: 100%; background: none}
 
 /***** header image *****/
-.riverImage { background-size: cover; width: 100%; height: 117.6%; margin-bottom: 100px }
+.riverImage { background-size: cover; width: 100%; height: 117.6%}
 
 /***** body NAVBAR header *****/
 .nav { background: #1B4C39 }
 
 /***** body NAVBAR tabs*****/
-.nav .nav-item { color: #1B4C39 ; background: #eee1c6; border-color: #1B4C39 !important }
+.nav .nav-item { color: #1B4C39 ; background: #eee1c6; border-color: #1B4C39 !important; font-weight: bold}
 
 /***** body NAVBAR active tab*****/
 .nav .active { color: #eee1c6 !important; background: #1B4C39 !important;  }
@@ -23,13 +23,13 @@ header { height: 238px;
 body { background: #1B4C39 }
 
 /***** body image borders *****/
-.img-thumbnail {background-color: #eee1c6 !important; color: #1B4C39 !important}
+.img-thumbnail {background-color: #eee1c6 !important; color: #1B4C39 !important; font-weight: bold !important}
 
 /***** body resume image *****/
 .resumeImage { width: 90%; height: 90%;}
 
 /***** body works images *****/
-.col-md-4 {margin-top: 40px}
+.col-md-4 {margin-top:20px}
 
 /***** all containers-fluid *****/
 .container-fluid { background: #1B4C39; padding: 20px}
@@ -40,10 +40,10 @@ h1, h2, h3, h4, h5, h6 { color: #eee1c6;
 	font-size: 20px}
 h1 {font-size: 30px !important}
 h2 {font-size: 25px !important}
-h5 {font-size: 15px !important}
+h4 {font-size: 15px !important; margin-top: 5px !important; text-align:justify !important; margin-left: 5px; margin-right: 5px}
 
 /***** body welcome text *****/
-.opening-text {text-align: left; text-justify: center; margin-top: 30px; margin-left: 40px; text-indent: -22px}
+.opening-text {text-align: left; margin-top: 20px; margin-left: 40px; text-indent: -22px}
 
 /***** body profile image&text *****/
 .profile-image { width: 200px; height: 200px}
@@ -63,4 +63,4 @@ p { color: #eee1c6;
 footer { background:#1B4C39; text-justify: center; text-align: center; }
 
 /***** footer linkedIn link *****/
-.linkedIn { height: 60px; width: 60px}
+.linkedIn { height: 40px; width: 40px}
