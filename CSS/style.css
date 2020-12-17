@@ -1,66 +1,202 @@
-html {background-color: #1B4C39}
+html {
+  background-color: #1B4C39;
+}
 
 /***** header *****/
-header {height: 238px;
-  width: 100%; background: none}
+header {
+  height: 238px;
+  width: 100%;
+  background: none;
+}
 
 /***** header image *****/
-.riverImage {background-size: cover; width: 100%; height: 117%}
+.riverImage {
+  background-size: cover;
+  width: 100%;
+  height: 117%;
+}
 
 /***** body NAVBAR header *****/
-.nav {background: #1B4C39; border-color: #1B4C39; border:none !important}
+.nav {
+  background: #1B4C39;
+  border-color: #1B4C39;
+  border:none !important;
+}
 
 /***** body NAVBAR tabs*****/
-.nav .nav-item {color: #1B4C39 ; background: #eee1c6; border-color: #1B4C39 !important; font-weight: bold}
+.nav .nav-item {
+  color: #1B4C39;
+  background: #eee1c6;
+  border-color: #1B4C39 !important;
+  font-weight: bold;
+}
 
 /***** body NAVBAR active tab*****/
-.nav .active {color: #eee1c6 !important; background: #1B4C39 !important}
+.nav .active {
+  color: #eee1c6 !important;
+  background: #1B4C39 !important;
+}
+
+a.nav-item.nav-link.active:hover{
+  text-decoration: underline;
+  text-decoration-color: #eee1c6;
+}
+
+a.nav-item.nav-link:hover{
+  text-decoration: underline;
+  text-decoration-color: #1B4C39;
+}
+
 
 /***** body NAVBAR undertab pane *****/
-.tab-content .tab-pane {background: #1B4C39}
+.tab-content .tab-pane {
+  background: #1B4C39;
+}
 
 /***** body paragraph *****/
-body {background: #1B4C39}
+body {
+  background: #1B4C39;
+}
 
 /***** body image borders *****/
-.img-thumbnail {background-color: #eee1c6 !important; color: #1B4C39 !important; font-weight: bold !important}
+.img-thumbnail {
+  background-color: #eee1c6 !important;
+  color: #1B4C39 !important;
+  font-weight: bold !important;
+}
+
+img.img-thumbnail:hover {
+  opacity: 0.5;
+}
+
+
+img.linkedIn.m-1.rounded.img-responsive.img-thumbnail:hover {
+  opacity: 0.5;
+}
+
+img.profile-image.m-1.rounded.img-thumbnail{
+  opacity: 1 !important;
+}
+
+button.btn.btn-light.btn-lg.btn-block.img-thumbnail:hover{
+  opacity: 0.5;
+  text-decoration: none !important;
+  text-decoration: none;
+}
+
+.removeUnderline, .removeUnderline:visited, .removeUnderline:hover, .removeUnderline:active {
+  text-decoration-color: #1B4C39;
+}
 
 /***** body resume image *****/
-.resumeImage {width: 90%; height: 90%;}
+.resumeImage {
+  width: 90%;
+  height: 90%;
+}
 
 /***** body works images *****/
-.col-md-4 {margin-top:20px}
+.col-md-4 {
+  margin-top:20px;
+}
 
 /***** all containers-fluid *****/
-.container-fluid {background: #1B4C39; padding: 20px}
+.container-fluid {
+  background: #1B4C39;
+  padding: 20px;
+}
 
 /***** all headers *****/
-h1, h2, h3, h4, h5, h6 {color: #eee1c6;
-    background: #1B4C39; 
-	font-size: 20px}
-h1 {font-size: 30px !important}
-h2 {font-size: 25px !important}
-h3 {padding-left: 15px; padding-right: 15px}
-h4 {font-size: 15px !important; margin-top: 5px !important; text-align:justify !important; margin-left: 5px; margin-right: 5px}
+h1, h2, h3, h4, h5, h6 {
+  color: #eee1c6;
+  background: #1B4C39;
+	font-size: 20px;
+}
+
+h1 {
+  font-size: 30px !important;
+}
+
+h2 {
+  font-size: 25px !important;
+}
+
+h3 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+h4 {
+  font-size: 15px !important;
+  margin-top: 5px !important;
+  text-align:justify !important;
+  margin-left: 5px;
+  margin-right: 5px;
+}
 
 /***** body welcome text *****/
-.opening-text {text-align:justify ; padding-bottom: 20px; padding-left: 30px; padding-right: 30px; padding-top: 20px; text-indent: -15px}
-.first-paragraph {padding-left: 20px ;padding-right: 20px; text-align: justify}
+.opening-text {
+  text-align: justify;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  text-indent: -15px;
+}
+
+.first-paragraph {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
 
 /***** body profile image&text *****/
-.profile-image {width: 200px; height: 200px}
-.profile-col {text-align: center; text-justify: center; margin-top: -50px ; margin-bottom: -20px}
+.profile-image {
+  width: 200px;
+   height: 200px;
+ }
+.profile-col {
+  text-align: center;
+  text-justify: center;
+  margin-top: -50px;
+  margin-bottom: -20px;
+}
 
 /***** all paragraphs *****/
-p {color: #eee1c6; background:#1B4C39; font-size: 15px}
+p {color: #eee1c6;
+  background:#1B4C39;
+  font-size: 15px;
+}
 
 /***** body buttons *****/
-.resumeButton {padding-left:15px; padding-right:15px; padding-top:8px; padding-bottom: 8px}
-.worksButton {padding-left:15px; padding-right:15px; padding-top:8px; padding-bottom: 8px}
-.homeButton {padding-left:15px; padding-right:15px; padding-top:8px; padding-bottom: 8px}
+.resumeButton {
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:8px;
+  padding-bottom: 8px;
+}
+
+.worksButton {
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:8px;
+  padding-bottom: 8px;
+}
+
+.homeButton {
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:8px;
+   padding-bottom: 8px;
+ }
 
 /***** footer content *****/
-footer {background:#1B4C39; text-justify: center; text-align: center}
+footer {background:#1B4C39;
+  text-justify: center;
+  text-align: center;
+}
 
 /***** footer linkedIn link *****/
-.linkedIn {height: 40px; width: 40px}
+.linkedIn {
+  height: 40px;
+  width: 40px;
+}
